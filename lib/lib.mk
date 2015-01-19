@@ -16,7 +16,7 @@ define target
 endef
 
 
-ready : dirs files dots talks plots pages
+ready : dirs files dots talks plots cat pages
 	@echo "See $(Out)"
 
 gitting:
@@ -63,6 +63,9 @@ pages : $(call target,posts,md,html,$(Raw),$(Out))
 
 debug:
 	echo  $(call target,posts,md,html,$(Raw),$(Out))
+
+cat : $(Raw)/slides/*.md
+	ls -1 $^ | grep -v "index.md" | xargs cat > slides/index.md
 
 $(Out)/slides/%.html : $(Raw)/slides/%.md 
 	pandoc -s \
