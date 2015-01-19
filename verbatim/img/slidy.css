@@ -225,6 +225,12 @@ ul ul ul ul { list-style-type: disc; }
 li { margin-left: 0.5em; margin-top: 0.5em; }
 li li { font-size: 85%; font-style: italic }
 li li li { font-size: 85%; font-style: normal }
+li > p {
+  -webkit-transition: 0.2s all ease-in;
+}
+li > p:hover {
+  margin-left: 2em;
+}
 
 div dt
 {
