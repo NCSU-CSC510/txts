@@ -1,0 +1,16 @@
+# Aniket Lawande
+
+- Computer Science Master's student at NCSU
+
+- Javascript ninja, trance addict and avid marathoner
+
+- 3 years of experience in web development. 24 years of experience in life
+
+
+
+
+
+
+<center>
+  Hover over any bullet point to see some CSS magic!
+</center>
