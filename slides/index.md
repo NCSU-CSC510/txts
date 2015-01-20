@@ -6,7 +6,9 @@
 
 - This project is a demonstration of adoption of software components early vs late in the software lifecycle
 - The base application will be a student management web application.
-- The software component that will be introduced is mocking. Specifically mocking of database calls and mocking of an external service to assist velopment and testing.
+- The software component that will be introduced is mocking. 
+- Specifically mocking of database calls and mocking of an external service to assist velopment and testing.
+
 # Motivation
 
 - Changes in software during the software lifecycle are inevitable.
@@ -34,8 +36,10 @@
 # Anisha Shetty
 
 - This is my second semester at NC State.
-- Worked for 2 years at Nomura Services (an invetment bank) as a Software developer
-- I am from Mumbai , India
+- I am from Mumbai,India
+- Worked for 2 years i.e.(2012 - 2014) at Nomura Services (an investment bank) as a Software developer
+
+
 # Aniket Lawande
 
 - Computer Science Master's student at NCSU
@@ -51,7 +55,8 @@
 
 <center>
 	Hover over any bullet point to see some CSS magic!
-</center># Prashant Trivedi
+</center>
+# Prashant Trivedi
 
 - Worked for 3 years at Oracle.
 - From Kanpur, India
@@ -91,3 +96,4 @@ Table: About Me
 - Once we compare the two methods(Early and late adoption of mocking) on various parameters, the results can be represented as below.
 
 <img align=center src="../img/plot/gnu.png">
+
